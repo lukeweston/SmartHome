@@ -6,26 +6,26 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,20 +43,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="p_dimension" color="6" fill="0" visible="no" active="no"/>
-<layer number="61" name="pt_docu" color="7" fill="0" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="p_dimension" color="6" fill="0" visible="yes" active="no"/>
+<layer number="61" name="pt_docu" color="7" fill="0" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -451,14 +451,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="2.362" y1="-1.2474" x2="2.362" y2="1.2474" width="0.1524" layer="21"/>
 <wire x1="2.362" y1="1.2473" x2="-2.362" y2="1.2473" width="0.1524" layer="51"/>
 <wire x1="-2.362" y1="1.2474" x2="-2.362" y2="-1.2474" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.6731" radius="0.3556" width="0.0508" layer="21"/>
-<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
 <text x="-2.54" y="5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-2.54" y="7.62" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
@@ -523,45 +522,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pad name="+" x="-1" y="0" drill="0.8" diameter="1.27"/>
 <text x="3.175" y="0.635" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="3.175" y="-0.635" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-</package>
-<package name="CDRH">
-<wire x1="-3.65" y1="0.8" x2="-3.65" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="3.65" y1="0.8" x2="3.65" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-3.35" y1="3.35" x2="-3.35" y2="-3.35" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="-3.35" x2="3.35" y2="-3.35" width="0.127" layer="51"/>
-<wire x1="3.35" y1="-3.35" x2="3.35" y2="3.35" width="0.127" layer="51"/>
-<wire x1="3.35" y1="3.35" x2="-3.35" y2="3.35" width="0.127" layer="51"/>
-<smd name="1" x="0" y="2.325" dx="7.3" dy="2.65" layer="1"/>
-<smd name="2" x="0" y="-2.325" dx="7.3" dy="2.65" layer="1"/>
-<text x="-3" y="5.27" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3" y="3.89" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.35" y1="1.016" x2="3.35" y2="3.35" layer="51"/>
-<rectangle x1="-3.35" y1="-3.35" x2="3.35" y2="-1.016" layer="51" rot="R180"/>
-</package>
-<package name="INDUCTOR-LARGE">
-<description>Large through-hole inductor (8mm diameter, 5mm lead pitch)</description>
-<circle x="0.0254" y="0.0508" radius="4" width="0.127" layer="21"/>
-<wire x1="-1.1907" y1="0" x2="-0.9526" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.9526" y1="0" x2="-0.6351" y2="0.3175" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.6351" y1="0.3175" x2="-0.3176" y2="0" width="0.127" layer="21" curve="-89.96392"/>
-<wire x1="-0.3176" y1="0" x2="-0.0001" y2="0.3175" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.0001" y1="0.3175" x2="0" y2="0.3175" width="0.127" layer="21"/>
-<wire x1="0" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.3175" y1="0" x2="0.635" y2="0.3175" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="0.3175" x2="0.9525" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.9525" y1="0" x2="1.1906" y2="-0.0001" width="0.127" layer="21"/>
-<pad name="1" x="-2.5" y="0" drill="0.9" diameter="2.1844"/>
-<pad name="2" x="2.5" y="0" drill="0.9" diameter="2.1844"/>
-<text x="5.08" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="5.08" y="0" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-</package>
-<package name="INDUCTOR_SMALL">
-<description>Small through-hole inductor (2mm lead pitch, 5mm diameter)</description>
-<circle x="0.0254" y="0.0508" radius="2.5" width="0.127" layer="21"/>
-<pad name="1" x="-1" y="0" drill="0.9" diameter="1.6002"/>
-<pad name="2" x="1" y="0" drill="0.9" diameter="1.6002"/>
-<text x="3.175" y="0.635" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="3.175" y="-0.635" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
 <package name="FKN200JR-73">
 <description>FKN200JR 2W resistor</description>
@@ -643,12 +603,26 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <package name="0603">
 <smd name="1" x="-0.8" y="0" dx="0.8" dy="0.95" layer="1" roundness="30"/>
 <smd name="2" x="0.8" y="0" dx="0.8" dy="0.95" layer="1" roundness="30"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="21"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.1" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.1" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-1.420625" y1="0.670625" x2="1.420625" y2="0.670625" width="0.1" layer="21"/>
+<wire x1="1.420625" y1="0.670625" x2="1.420625" y2="-0.670625" width="0.1" layer="21"/>
+<wire x1="1.420625" y1="-0.670625" x2="-1.420625" y2="-0.670625" width="0.1" layer="21"/>
+<wire x1="-1.420625" y1="-0.670625" x2="-1.420625" y2="0.670625" width="0.1" layer="21"/>
 <text x="-2.1" y="0.6" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-2.7" y="-1.5" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+</package>
+<package name="RLB0608">
+<circle x="0" y="0" radius="2.5" width="0.1" layer="21"/>
+<pad name="1" x="-1" y="0" drill="0.6"/>
+<pad name="2" x="1" y="0" drill="0.6"/>
+<text x="3" y="1" size="1" layer="25">&gt;NAME</text>
+<text x="3" y="-1" size="1" layer="27">&gt;VALUE</text>
+</package>
+<package name="RLB0914">
+<circle x="0" y="0" radius="4.35" width="0.1" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="0.7"/>
+<pad name="2" x="2.5" y="0" drill="0.7"/>
+<text x="5" y="1" size="1" layer="25">&gt;NAME</text>
+<text x="5" y="-1" size="1" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -699,14 +673,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="INDUCTOR">
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="0" visible="off" length="short"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-3.81" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="point"/>
+<pin name="2" x="5.08" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="RESISTOR-US">
 <pin name="1" x="-6.35" y="0" visible="off" length="point"/>
@@ -861,40 +836,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR" prefix="L">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CDRH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5MM" package="INDUCTOR-LARGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2MM" package="INDUCTOR_SMALL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RESISTOR" prefix="R">
 <description>Resistor</description>
 <gates>
@@ -1010,6 +951,49 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </technologies>
 </device>
 <device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L" prefix="L">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RLB0608" package="RLB0608">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RLB0914" package="RLB0914">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1452,7 +1436,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="C3" library="freetronics-luke" deviceset="ELECTROLYTIC" device="3.5MM" value="4.7µF">
 <attribute name="VOLTAGE" value="400V"/>
 </part>
-<part name="L2" library="freetronics-luke" deviceset="INDUCTOR" device="5MM" value="680µH"/>
 <part name="U$8" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="R3" library="freetronics-luke" deviceset="RESISTOR" device="FKN200JR-73" value="8.2Ω">
 <attribute name="FOO" value="Fusible"/>
@@ -1462,7 +1445,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="IC3" library="freetronics-luke" deviceset="LNK304" device="" value="LNK306DG">
 <attribute name="PACKAGE" value="7-SOIC"/>
 </part>
-<part name="L1" library="freetronics-luke" deviceset="INDUCTOR" device="2MM" value="1mH"/>
 <part name="C5" library="freetronics-luke" deviceset="ELECTROLYTIC" device="3.5MM" value="4.7µF">
 <attribute name="VOLTAGE" value="400V"/>
 </part>
@@ -1493,7 +1475,7 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="D1" library="freetronics-luke" deviceset="SCHOTTKY" device="-SMA" value="S1J-13-F">
 <attribute name="PACKAGE" value="SMA"/>
 </part>
-<part name="C1" library="freetronics-luke" deviceset="C" device="0603" value="2.2nF">
+<part name="C1" library="freetronics-luke" deviceset="C" device="0603" value="4.7nF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="R1" library="freetronics-luke" deviceset="R" device="0603" value="100Ω">
@@ -1509,7 +1491,7 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="R6" library="freetronics-luke" deviceset="R" device="0603" value="100Ω">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="C7" library="freetronics-luke" deviceset="C" device="0603" value="2.2nF">
+<part name="C7" library="freetronics-luke" deviceset="C" device="0603" value="4.7nF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="C10" library="freetronics-luke" deviceset="C" device="0603" value="100nF">
@@ -1563,6 +1545,8 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="+3V4" library="supply1" deviceset="+3V3" device="" value="+3.3V"/>
 <part name="P+3" library="supply1" deviceset="+5V" device="" value="+4V"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="Frame1"/>
+<part name="L3" library="freetronics-luke" deviceset="L" device="RLB0608" value="1mH"/>
+<part name="L4" library="freetronics-luke" deviceset="L" device="RLB0914" value="680µH"/>
 </parts>
 <sheets>
 <sheet>
@@ -1615,12 +1599,8 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <attribute name="NAME" x="68.58" y="78.74" size="1.27" layer="95"/>
 <attribute name="VALUE" x="68.58" y="76.2" size="1.27" layer="96"/>
 </instance>
-<instance part="L2" gate="G$1" x="157.48" y="83.82" smashed="yes">
-<attribute name="NAME" x="152.4" y="81.28" size="1.27" layer="95"/>
-<attribute name="VALUE" x="152.4" y="78.74" size="1.27" layer="96"/>
-</instance>
 <instance part="U$8" gate="G$1" x="58.42" y="68.58"/>
-<instance part="R3" gate="G$1" x="62.23" y="83.82" smashed="yes">
+<instance part="R3" gate="G$1" x="59.69" y="83.82" smashed="yes" rot="R180">
 <attribute name="ID" x="45.72" y="86.36" size="1.27" layer="96"/>
 <attribute name="POWER" x="50.8" y="88.9" size="1.27" layer="96"/>
 <attribute name="NAME" x="45.72" y="91.44" size="1.27" layer="95"/>
@@ -1630,10 +1610,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <attribute name="PACKAGE" x="96.52" y="91.44" size="1.27" layer="96"/>
 <attribute name="NAME" x="96.52" y="96.52" size="1.27" layer="95"/>
 <attribute name="VALUE" x="96.52" y="93.98" size="1.27" layer="96"/>
-</instance>
-<instance part="L1" gate="G$1" x="86.36" y="83.82" smashed="yes">
-<attribute name="NAME" x="81.28" y="88.9" size="1.27" layer="95"/>
-<attribute name="VALUE" x="81.28" y="86.36" size="1.27" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="96.52" y="76.2" smashed="yes">
 <attribute name="VOLTAGE" x="88.9" y="73.66" size="1.27" layer="96"/>
@@ -1814,6 +1790,14 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <attribute name="VALUE" x="198.12" y="149.86" size="1.27" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="L3" gate="G$1" x="86.36" y="83.82" smashed="yes">
+<attribute name="NAME" x="81.28" y="88.9" size="1.27" layer="95"/>
+<attribute name="VALUE" x="81.28" y="86.36" size="1.27" layer="96"/>
+</instance>
+<instance part="L4" gate="G$1" x="157.48" y="83.82" smashed="yes">
+<attribute name="NAME" x="152.4" y="81.28" size="1.27" layer="95"/>
+<attribute name="VALUE" x="152.4" y="78.74" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1914,9 +1898,6 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 </net>
 <net name="+4V" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="83.82" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="+"/>
 <wire x1="170.18" y1="81.28" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <junction x="170.18" y="83.82"/>
@@ -1924,6 +1905,9 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="175.26" y1="83.82" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="L4" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="83.82" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="VCC"/>
@@ -2073,33 +2057,26 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <wire x1="119.38" y1="139.7" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="68.58" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="81.28" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <junction x="76.2" y="83.82"/>
 <pinref part="D1" gate="G$1" pin="K"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="D"/>
 <wire x1="99.06" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="96.52" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="83.82" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="81.28" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <junction x="96.52" y="83.82"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -2119,15 +2096,15 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <wire x1="129.54" y1="86.36" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="83.82" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 <junction x="129.54" y="83.82"/>
 <junction x="129.54" y="78.74"/>
-<junction x="144.78" y="83.82"/>
 <pinref part="D2" gate="G$1" pin="K"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="L4" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="83.82" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<junction x="144.78" y="83.82"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -2269,8 +2246,15 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <net name="N$2" class="0">
 <segment>
 <pinref part="J1" gate="-2" pin="KL"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
