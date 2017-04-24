@@ -853,14 +853,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <wire x1="2.362" y1="-1.2474" x2="2.362" y2="1.2474" width="0.1524" layer="21"/>
 <wire x1="2.362" y1="1.2473" x2="-2.362" y2="1.2473" width="0.1524" layer="51"/>
 <wire x1="-2.362" y1="1.2474" x2="-2.362" y2="-1.2474" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.6731" radius="0.3556" width="0.0508" layer="21"/>
-<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
+<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1" roundness="100"/>
 <text x="-2.54" y="5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-2.54" y="7.62" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
@@ -891,45 +890,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <pad name="+" x="-1" y="0" drill="0.8" diameter="1.27"/>
 <text x="3.175" y="0.635" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="3.175" y="-0.635" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-</package>
-<package name="CDRH">
-<wire x1="-3.65" y1="0.8" x2="-3.65" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="3.65" y1="0.8" x2="3.65" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-3.35" y1="3.35" x2="-3.35" y2="-3.35" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="-3.35" x2="3.35" y2="-3.35" width="0.127" layer="51"/>
-<wire x1="3.35" y1="-3.35" x2="3.35" y2="3.35" width="0.127" layer="51"/>
-<wire x1="3.35" y1="3.35" x2="-3.35" y2="3.35" width="0.127" layer="51"/>
-<smd name="1" x="0" y="2.325" dx="7.3" dy="2.65" layer="1"/>
-<smd name="2" x="0" y="-2.325" dx="7.3" dy="2.65" layer="1"/>
-<text x="-3" y="5.27" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3" y="3.89" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.35" y1="1.016" x2="3.35" y2="3.35" layer="51"/>
-<rectangle x1="-3.35" y1="-3.35" x2="3.35" y2="-1.016" layer="51" rot="R180"/>
-</package>
-<package name="INDUCTOR-LARGE">
-<description>Large through-hole inductor (8mm diameter, 5mm lead pitch)</description>
-<circle x="0.0254" y="0.0508" radius="4" width="0.127" layer="21"/>
-<wire x1="-1.1907" y1="0" x2="-0.9526" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.9526" y1="0" x2="-0.6351" y2="0.3175" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.6351" y1="0.3175" x2="-0.3176" y2="0" width="0.127" layer="21" curve="-89.96392"/>
-<wire x1="-0.3176" y1="0" x2="-0.0001" y2="0.3175" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.0001" y1="0.3175" x2="0" y2="0.3175" width="0.127" layer="21"/>
-<wire x1="0" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.3175" y1="0" x2="0.635" y2="0.3175" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="0.3175" x2="0.9525" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.9525" y1="0" x2="1.1906" y2="-0.0001" width="0.127" layer="21"/>
-<pad name="1" x="-2.5" y="0" drill="0.9" diameter="2.1844"/>
-<pad name="2" x="2.5" y="0" drill="0.9" diameter="2.1844"/>
-<text x="5.08" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="5.08" y="0" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-</package>
-<package name="INDUCTOR_SMALL">
-<description>Small through-hole inductor (2mm lead pitch, 5mm diameter)</description>
-<circle x="0.0254" y="0.0508" radius="2.5" width="0.127" layer="21"/>
-<pad name="1" x="-1" y="0" drill="0.9" diameter="1.6002"/>
-<pad name="2" x="1" y="0" drill="0.9" diameter="1.6002"/>
-<text x="3.175" y="0.635" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="3.175" y="-0.635" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
 <package name="FKN200JR-73">
 <description>FKN200JR 2W resistor</description>
@@ -981,10 +941,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <package name="0603">
 <smd name="1" x="-0.8" y="0" dx="0.8" dy="0.95" layer="1" roundness="30"/>
 <smd name="2" x="0.8" y="0" dx="0.8" dy="0.95" layer="1" roundness="30"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="21"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.1" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.1" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-1.420625" y1="0.670625" x2="1.420625" y2="0.670625" width="0.1" layer="21"/>
+<wire x1="1.420625" y1="0.670625" x2="1.420625" y2="-0.670625" width="0.1" layer="21"/>
+<wire x1="1.420625" y1="-0.670625" x2="-1.420625" y2="-0.670625" width="0.1" layer="21"/>
+<wire x1="-1.420625" y1="-0.670625" x2="-1.420625" y2="0.670625" width="0.1" layer="21"/>
 <text x="-2.1" y="0.6" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-2.7" y="-1.5" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 </package>
@@ -1028,6 +988,20 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
 <rectangle x1="-0.95" y1="-0.775" x2="-0.65" y2="0.8" layer="21"/>
 </package>
+<package name="RLB0608">
+<circle x="0" y="0" radius="2.5" width="0.1" layer="21"/>
+<pad name="1" x="-1" y="0" drill="0.6"/>
+<pad name="2" x="1" y="0" drill="0.6"/>
+<text x="3" y="1" size="1" layer="25">&gt;NAME</text>
+<text x="3" y="-1" size="1" layer="27">&gt;VALUE</text>
+</package>
+<package name="RLB0914">
+<circle x="0" y="0" radius="4.35" width="0.1" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="0.7"/>
+<pad name="2" x="2.5" y="0" drill="0.7"/>
+<text x="5" y="1" size="1" layer="25">&gt;NAME</text>
+<text x="5" y="-1" size="1" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="GND">
@@ -1058,16 +1032,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <rectangle x1="-1.651" y1="0" x2="1.651" y2="0.889" layer="94"/>
 <pin name="-" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="INDUCTOR">
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="0" visible="off" length="short"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 <symbol name="RESISTOR-US">
 <pin name="1" x="-6.35" y="0" visible="off" length="point"/>
@@ -1159,10 +1123,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <text x="2.54" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="+5V">
+<text x="2.54" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="2.54" y="0" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="C">
 <wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
@@ -1201,6 +1166,17 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="K" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="INDUCTOR">
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-3.81" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="point"/>
+<pin name="2" x="5.08" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1255,40 +1231,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="INDUCTOR" prefix="L">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CDRH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5MM" package="INDUCTOR-LARGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2MM" package="INDUCTOR_SMALL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1354,6 +1296,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <deviceset name="+5V">
 <gates>
 <gate name="G$1" symbol="+5V" x="0" y="0"/>
+<gate name="G$2" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1441,6 +1384,49 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L" prefix="L">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RLB0608" package="RLB0608">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RLB0914" package="RLB0914">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6341,7 +6327,6 @@ Grid 5.08 mm&lt;p&gt;
 <part name="C11" library="freetronics-luke" deviceset="ELECTROLYTIC" device="3.5MM" value="4.7µF">
 <attribute name="VOLTAGE" value="400V"/>
 </part>
-<part name="L2" library="freetronics-luke" deviceset="INDUCTOR" device="5MM" value="680µH"/>
 <part name="R8" library="freetronics-luke" deviceset="RESISTOR" device="FKN200JR-73" value="8.2Ω">
 <attribute name="FOO" value="Fusible"/>
 <attribute name="ID" value="FKN200JR-73-8R2"/>
@@ -6350,7 +6335,6 @@ Grid 5.08 mm&lt;p&gt;
 <part name="IC3" library="freetronics-luke" deviceset="LNK304" device="" value="LNK306DG">
 <attribute name="PACKAGE" value="7-SOIC"/>
 </part>
-<part name="L1" library="freetronics-luke" deviceset="INDUCTOR" device="2MM" value="1mH"/>
 <part name="C12" library="freetronics-luke" deviceset="ELECTROLYTIC" device="3.5MM" value="4.7µF">
 <attribute name="VOLTAGE" value="400V"/>
 </part>
@@ -6494,6 +6478,8 @@ Grid 5.08 mm&lt;p&gt;
 <attribute name="PACKAGE" value="SMA"/>
 </part>
 <part name="U$2" library="freetronics-luke" deviceset="GND" device=""/>
+<part name="L1" library="freetronics-luke" deviceset="L" device="RLB0608" value="1mH"/>
+<part name="L2" library="freetronics-luke" deviceset="L" device="RLB0914" value="680µH"/>
 </parts>
 <sheets>
 <sheet>
@@ -6513,37 +6499,29 @@ Grid 5.08 mm&lt;p&gt;
 <attribute name="NAME" x="231.14" y="53.34" size="1.27" layer="95"/>
 <attribute name="VALUE" x="231.14" y="50.8" size="1.27" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="144.78" y="50.8" smashed="yes">
-<attribute name="VOLTAGE" x="137.16" y="48.26" size="1.27" layer="96"/>
-<attribute name="NAME" x="137.16" y="53.34" size="1.27" layer="95"/>
-<attribute name="VALUE" x="137.16" y="50.8" size="1.27" layer="96"/>
+<instance part="C11" gate="G$1" x="149.86" y="50.8" smashed="yes">
+<attribute name="VOLTAGE" x="142.24" y="48.26" size="1.27" layer="96"/>
+<attribute name="NAME" x="142.24" y="53.34" size="1.27" layer="95"/>
+<attribute name="VALUE" x="142.24" y="50.8" size="1.27" layer="96"/>
 </instance>
-<instance part="L2" gate="G$1" x="226.06" y="58.42" smashed="yes">
-<attribute name="NAME" x="220.98" y="55.88" size="1.27" layer="95"/>
-<attribute name="VALUE" x="220.98" y="53.34" size="1.27" layer="96"/>
-</instance>
-<instance part="R8" gate="G$1" x="130.81" y="58.42" smashed="yes">
-<attribute name="ID" x="116.84" y="63.5" size="1.27" layer="96"/>
-<attribute name="FOO" x="116.84" y="66.04" size="1.27" layer="96"/>
-<attribute name="POWER" x="121.92" y="68.58" size="1.27" layer="96"/>
-<attribute name="NAME" x="116.84" y="71.12" size="1.27" layer="95"/>
-<attribute name="VALUE" x="116.84" y="68.58" size="1.27" layer="96"/>
+<instance part="R8" gate="G$1" x="135.89" y="58.42" smashed="yes">
+<attribute name="ID" x="121.92" y="63.5" size="1.27" layer="96"/>
+<attribute name="FOO" x="121.92" y="66.04" size="1.27" layer="96"/>
+<attribute name="POWER" x="127" y="68.58" size="1.27" layer="96"/>
+<attribute name="NAME" x="121.92" y="71.12" size="1.27" layer="95"/>
+<attribute name="VALUE" x="121.92" y="68.58" size="1.27" layer="96"/>
 </instance>
 <instance part="IC3" gate="G$1" x="177.8" y="55.88" smashed="yes">
 <attribute name="PACKAGE" x="180.34" y="66.04" size="1.27" layer="96"/>
 <attribute name="NAME" x="180.34" y="71.12" size="1.27" layer="95"/>
 <attribute name="VALUE" x="180.34" y="68.58" size="1.27" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="154.94" y="58.42" smashed="yes">
-<attribute name="NAME" x="149.86" y="63.5" size="1.27" layer="95"/>
-<attribute name="VALUE" x="149.86" y="60.96" size="1.27" layer="96"/>
-</instance>
 <instance part="C12" gate="G$1" x="165.1" y="50.8" smashed="yes">
 <attribute name="VOLTAGE" x="157.48" y="48.26" size="1.27" layer="96"/>
 <attribute name="NAME" x="157.48" y="53.34" size="1.27" layer="95"/>
 <attribute name="VALUE" x="157.48" y="50.8" size="1.27" layer="96"/>
 </instance>
-<instance part="U$9" gate="G$1" x="144.78" y="43.18"/>
+<instance part="U$9" gate="G$1" x="149.86" y="43.18"/>
 <instance part="U$10" gate="G$1" x="165.1" y="43.18"/>
 <instance part="U$11" gate="G$1" x="215.9" y="43.18"/>
 <instance part="C16" gate="G$1" x="215.9" y="66.04" smashed="yes" rot="R180">
@@ -6755,10 +6733,10 @@ Grid 5.08 mm&lt;p&gt;
 <attribute name="VALUE" x="60.96" y="132.08" size="1.27" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="71.12" y="106.68"/>
-<instance part="D1" gate="G$1" x="139.7" y="58.42" smashed="yes" rot="MR180">
-<attribute name="NAME" x="137.16" y="68.58" size="1.27" layer="95"/>
-<attribute name="VALUE" x="137.16" y="66.04" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="137.16" y="63.5" size="1.27" layer="96"/>
+<instance part="D1" gate="G$1" x="144.78" y="58.42" smashed="yes" rot="MR180">
+<attribute name="NAME" x="142.24" y="68.58" size="1.27" layer="95"/>
+<attribute name="VALUE" x="142.24" y="66.04" size="1.27" layer="96"/>
+<attribute name="PACKAGE" x="142.24" y="63.5" size="1.27" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="203.2" y="53.34" size="1.27" layer="95"/>
@@ -6771,37 +6749,45 @@ Grid 5.08 mm&lt;p&gt;
 <attribute name="PACKAGE" x="228.6" y="63.5" size="1.27" layer="96"/>
 </instance>
 <instance part="U$2" gate="G$1" x="63.5" y="15.24" rot="MR0"/>
+<instance part="L1" gate="G$1" x="157.48" y="58.42" smashed="yes">
+<attribute name="NAME" x="152.4" y="63.5" size="1.27" layer="95"/>
+<attribute name="VALUE" x="152.4" y="60.96" size="1.27" layer="96"/>
+</instance>
+<instance part="L2" gate="G$1" x="226.06" y="58.42" smashed="yes">
+<attribute name="NAME" x="220.98" y="55.88" size="1.27" layer="95"/>
+<attribute name="VALUE" x="220.98" y="53.34" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$8" class="0">
 <segment>
-<wire x1="137.16" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="+"/>
-<wire x1="144.78" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="55.88" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
-<junction x="144.78" y="58.42"/>
+<wire x1="149.86" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="55.88" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<junction x="149.86" y="58.42"/>
 <pinref part="D1" gate="G$1" pin="K"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="D"/>
 <wire x1="167.64" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="165.1" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="55.88" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
 <junction x="165.1" y="58.42"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -6817,11 +6803,10 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="187.96" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="60.96" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<pinref part="L2" gate="G$1" pin="1"/>
 <junction x="200.66" y="58.42"/>
 <junction x="215.9" y="58.42"/>
 <wire x1="215.9" y1="53.34" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="60.96" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="58.42" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
@@ -6829,6 +6814,7 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="K"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -6868,8 +6854,8 @@ Grid 5.08 mm&lt;p&gt;
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<label x="121.92" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="129.54" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
+<label x="127" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -6918,7 +6904,7 @@ Grid 5.08 mm&lt;p&gt;
 <junction x="63.5" y="55.88"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U$48" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="111.76" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
@@ -6943,7 +6929,7 @@ Grid 5.08 mm&lt;p&gt;
 <segment>
 <pinref part="C11" gate="G$1" pin="-"/>
 <pinref part="U$9" gate="G$1" pin="GND"/>
-<wire x1="144.78" y1="45.72" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="45.72" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="-"/>
@@ -7289,8 +7275,7 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="58.42" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="+"/>
 <wire x1="241.3" y1="55.88" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
@@ -7299,6 +7284,7 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="246.38" y1="58.42" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U$41" gate="G$1" pin="+5V"/>
 <pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
